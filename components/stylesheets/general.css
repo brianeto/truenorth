@@ -1,0 +1,51 @@
+/* Import all variables */
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+body, html {
+  color: #B2C4D5;
+  background: #161A23;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Cabin', sans-serif; }
+
+a {
+  color: #15A5DF; }
+
+p, small, input {
+  font-size: 18px; }
+
+small {
+  display: block;
+  margin: 10px 0;
+  color: #33B993; }
+
+ul, h1, h2, p, li {
+  font-weight: 100;
+  display: block;
+  margin: 0;
+  border: 0;
+  padding: 0; }
+
+h1 {
+  display: block;
+  margin: 15px 0;
+  color: #FFFFFF; }
+
+h2 {
+  line-height: 1.4em; }
+
+button {
+  color: white;
+  background-image: linear-gradient(45deg, #37D6A9 0%, #003FFF 100%);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px; }
+
+@media (min-width: 1200px) {
+  .wraper {
+    width: 1200px;
+    margin: 0 auto; } }

@@ -1,0 +1,33 @@
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+@media (min-width: 1200px) {
+  .work {
+    width: 960px;
+    margin-left: 120px;
+    float: left;
+    display: block;
+    text-align: center; } }
+.work .work-item {
+  position: relative;
+  width: calc(50% - 20px);
+  height: 300px;
+  float: left;
+  background: #000;
+  margin: 10px; }
+  .work .work-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+.work .cta {
+  width: 100%;
+  text-align: center; }
