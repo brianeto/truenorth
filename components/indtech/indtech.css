@@ -1,0 +1,31 @@
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+@media (min-width: 1200px) {
+  .indtech {
+    width: 100%;
+    float: left;
+    display: block;
+    margin: 100px 0; }
+    .indtech .industries .left, .indtech .industries .right {
+      width: 50%; }
+    .indtech .technologies {
+      width: 100%;
+      display: block;
+      text-align: center; }
+      .indtech .technologies ul li {
+        float: left;
+        width: 20%;
+        text-align: center; }
+      .indtech .technologies ul li:first-child {
+        margin-left: 0; }
+      .indtech .technologies ul li:last-child {
+        margin-right: 0; } }

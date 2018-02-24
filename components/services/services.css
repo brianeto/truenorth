@@ -1,0 +1,47 @@
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+@media (min-width: 1200px) {
+  .services {
+    background-color: #1B202B;
+    padding: 80px 200px;
+    float: left;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: calc(100% - 400px); }
+    .services .slider {
+      display: block;
+      float: left; }
+      .services .slider .content {
+        width: 100%;
+        float: left;
+        display: block; }
+      .services .slider .sections {
+        width: 100%;
+        display: block;
+        float: left;
+        margin: 40px 0; }
+        .services .slider .sections ul {
+          width: 500px;
+          margin: 0 auto;
+          list-style: none; }
+          .services .slider .sections ul li {
+            display: block;
+            text-align: center;
+            float: left;
+            width: 33.33%; }
+            .services .slider .sections ul li p {
+              font-size: 20px;
+              color: #FFFFFF;
+              margin: 10px 0; }
+            .services .slider .sections ul li svg {
+              height: 70px; } }

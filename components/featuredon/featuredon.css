@@ -1,0 +1,44 @@
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+@media (min-width: 1200px) {
+  .featuredon {
+    width: 100%;
+    float: left;
+    display: block;
+    position: relative;
+    text-align: center; }
+    .featuredon ul {
+      display: block;
+      width: 100%; }
+      .featuredon ul li {
+        float: left; }
+    .featuredon .row-1, .featuredon .row-2 {
+      width: 100%;
+      display: block;
+      float: left;
+      margin: 10px; }
+      .featuredon .row-1 img, .featuredon .row-2 img {
+        transform: scale(0.8); }
+    .featuredon .row-1 li {
+      width: 16%;
+      text-align: center; }
+    .featuredon .row-2 li {
+      width: 50%;
+      text-align: center; }
+    .featuredon .row-2 li:first-child {
+      text-align: right; }
+      .featuredon .row-2 li:first-child img {
+        margin-right: 50px; }
+    .featuredon .row-2 li:last-child {
+      text-align: left; }
+      .featuredon .row-2 li:last-child img {
+        margin-left: 50px; } }
