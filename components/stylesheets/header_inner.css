@@ -10,32 +10,32 @@ VARIABLES
 /* Blue Gradient */
 /* Style for large devices */
 @media (min-width: 1200px) {
-  header .content {
+  .header_inner .content {
     width: 100%;
     display: block;
     position: relative;
     float: left;
     margin: 100px 0; }
-    header .content .container {
+    .header_inner .content .container {
       width: 100%;
       float: left;
       text-align: center; }
-      header .content .container h1, header .content .container p {
+      .header_inner .content .container h1, .header_inner .content .container p {
         width: 40%;
         margin: 0 auto; }
-    header .content .container-img {
+    .header_inner .content .container-img {
       width: 50%;
       float: right; }
-    header .content .hero-image {
+    .header_inner .content .hero-image {
       overflow: hidden;
       height: 500px;
       width: 100%;
       float: left;
       margin: 50px 0; }
-      header .content .hero-image img {
+      .header_inner .content .hero-image img {
         width: 100%;
         top: -150px;
         position: relative; } }
 @media (max-width: 992px) {
-  header {
+  .header_inner {
     color: #fff; } }
