@@ -5,7 +5,7 @@
 @import url(grids.css);
 @import url(general.css);
 /* Components Styles Calls */
-@import url(../header/header.css);
+@import url(/header/header.css);
 @import url(services/services.css);
 @import url(indtech/indtech.css);
 @import url(work/work.css);
