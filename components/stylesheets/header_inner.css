@@ -1,0 +1,41 @@
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+@media (min-width: 1200px) {
+  header .content {
+    width: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 100px 0; }
+    header .content .container {
+      width: 100%;
+      float: left;
+      text-align: center; }
+      header .content .container h1, header .content .container p {
+        width: 40%;
+        margin: 0 auto; }
+    header .content .container-img {
+      width: 50%;
+      float: right; }
+    header .content .hero-image {
+      overflow: hidden;
+      height: 500px;
+      width: 100%;
+      float: left;
+      margin: 50px 0; }
+      header .content .hero-image img {
+        width: 100%;
+        top: -150px;
+        position: relative; } }
+@media (max-width: 992px) {
+  header {
+    color: #fff; } }

@@ -1,0 +1,42 @@
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+@media (min-width: 1200px) {
+  .culture {
+    text-align: center;
+    width: 100%;
+    float: left; }
+    .culture .container {
+      width: 60%;
+      margin: 0 auto; }
+    .culture .imagery {
+      width: 100%;
+      float: left;
+      margin: 50px 0; }
+      .culture .imagery .image-item {
+        overflow: hidden; }
+    .culture .right, .culture .left {
+      width: 50%; }
+    .culture .left {
+      height: 432px;
+      float: left; }
+      .culture .left .image-item {
+        width: 96%;
+        height: 100%;
+        float: left;
+        margin: 2%; }
+    .culture .right {
+      float: right; }
+      .culture .right .image-item {
+        width: 46%;
+        height: 205px;
+        float: left;
+        margin: 2%; } }
