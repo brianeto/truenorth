@@ -15,8 +15,13 @@ body, html {
 a {
   color: #15A5DF; }
 
-p, small, input {
-  font-size: 18px; }
+p {
+  line-height: 1.5em; }
+
+p, small, input, textarea {
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  outline: none; }
 
 small {
   display: block;
@@ -39,11 +44,22 @@ h2 {
   line-height: 1.4em; }
 
 button {
+  -webkit-font-smoothing: antialiased;
   color: white;
   background-image: linear-gradient(45deg, #37D6A9 0%, #003FFF 100%);
   border: none;
-  padding: 10px 20px;
-  border-radius: 50px; }
+  padding: 15px 30px;
+  border-radius: 50px;
+  outline: none;
+  margin: 50px 0;
+  font-size: 20px; }
+
+form input {
+  color: #C6CBD0; }
+form textarea {
+  resize: none; }
+form textarea::-webkit-input-placeholder {
+  color: #C6CBD0; }
 
 @media (min-width: 1200px) {
   .wraper {

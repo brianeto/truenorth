@@ -16,6 +16,8 @@ VARIABLES
     display: block;
     position: relative;
     text-align: center; }
+    .featuredon small {
+      margin-bottom: 25px; }
     .featuredon ul {
       display: block;
       width: 100%; }
@@ -42,4 +44,6 @@ VARIABLES
     .featuredon .row-2 li:last-child {
       text-align: left; }
       .featuredon .row-2 li:last-child img {
-        margin-left: 50px; } }
+        margin-left: 50px; }
+    .featuredon .news {
+      margin: 50px 0; } }

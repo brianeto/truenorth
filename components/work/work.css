@@ -12,23 +12,30 @@ VARIABLES
 @media (min-width: 1200px) {
   .work {
     width: 960px;
-    margin-left: 120px;
-    float: left;
+    margin: 0 auto;
     display: block;
-    text-align: center; } }
-.work .work-item {
-  position: relative;
-  width: calc(50% - 20px);
-  height: 300px;
-  float: left;
-  background: #000;
-  margin: 10px; }
-  .work .work-item img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%); }
-.work .cta {
-  width: 100%;
-  text-align: center; }
+    text-align: center; }
+    .work h1, .work p {
+      width: 60%;
+      margin: 10px auto; }
+    .work .work-item {
+      position: relative;
+      width: calc(50% - 20px);
+      height: 300px;
+      float: left;
+      background: #000;
+      margin: 10px;
+      overflow: hidden; }
+      .work .work-item img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%); }
+      .work .work-item img:nth-child(1) {
+        z-index: 1; }
+    .work .featured-work {
+      margin: 50px 0; }
+    .work .cta {
+      width: 100%;
+      text-align: center; } }
