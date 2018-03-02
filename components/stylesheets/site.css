@@ -1,9 +1,3 @@
-/* Main CSS files */
-@import url(bits.css);
-@import url(normalise.css);
-@import url(responsive.css);
-@import url(grids.css);
-@import url(general.css);
 /* Components Styles Calls */
 @import url(header.css);
 @import url(services.css);
@@ -26,3 +20,9 @@
 @import url(header_news.css);
 @import url(news_list.css);
 @import url(footer_news_detail.css);
+/* Main CSS files */
+@import url(bits.css);
+@import url(normalise.css);
+@import url(responsive.css);
+@import url(grids.css);
+@import url(general.css);
