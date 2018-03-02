@@ -1,0 +1,48 @@
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+@media (min-width: 1200px) {
+  .careers_list {
+    float: left;
+    width: 100%;
+    display: block;
+    margin: 40px 0; }
+    .careers_list .container {
+      width: 80%;
+      margin: 0 auto;
+      display: block;
+      text-align: center; }
+      .careers_list .container ul li {
+        width: 100%;
+        float: left;
+        border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+        padding: 20px 0; }
+        .careers_list .container ul li .right {
+          float: right; }
+        .careers_list .container ul li .left {
+          float: left;
+          text-align: left; }
+        .careers_list .container ul li h1, .careers_list .container ul li small {
+          color: #FFFFFF; }
+        .careers_list .container ul li h1 {
+          margin: 0;
+          font-size: 25px;
+          text-transform: capitalize; }
+        .careers_list .container ul li small {
+          opacity: .5;
+          font-size: 18px; }
+        .careers_list .container ul li button {
+          opacity: .3;
+          background: none;
+          border: 1px solid #E1E1E1;
+          margin: 10px 0;
+          font-size: 16px;
+          text-transform: capitalize; } }

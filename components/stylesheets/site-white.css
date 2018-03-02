@@ -1,0 +1,17 @@
+/* Custom CSS File */
+/* Imports */
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* News detail */
+@import url(header_news_detail.css);
+@import url(news_detail_body.css);
+body, html {
+  background: white; }
+
+footer .news p:first-child {
+  color: #808D99; }

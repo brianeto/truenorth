@@ -1,0 +1,30 @@
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+.header_news {
+  width: 100%; }
+  @media (min-width: 1200px) {
+    .header_news .content {
+      width: 100%;
+      display: block;
+      position: relative;
+      float: left;
+      margin: 80px 0; }
+      .header_news .content .container {
+        width: 100%;
+        float: left;
+        text-align: center; }
+        .header_news .content .container h1, .header_news .content .container p {
+          width: 40%;
+          margin: 10px auto; } }
+  @media (max-width: 992px) {
+    .header_news {
+      color: #fff; } }

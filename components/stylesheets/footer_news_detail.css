@@ -1,0 +1,125 @@
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+.footer_news_detail {
+  width: 100%;
+  float: left; }
+  @media (min-width: 1200px) {
+    .footer_news_detail .wraper {
+      width: 100%;
+      height: 570px;
+      position: relative; }
+      .footer_news_detail .wraper .container {
+        width: 100%;
+        height: 418px;
+        margin-top: 100px;
+        background: linear-gradient(45deg, #37D6A9 0%, #003FFF 100%); }
+        .footer_news_detail .wraper .container .contact {
+          width: calc(100% - 30px);
+          float: left;
+          padding: 0 40px; }
+          .footer_news_detail .wraper .container .contact .content {
+            color: white; }
+            .footer_news_detail .wraper .container .contact .content small {
+              color: white; }
+            .footer_news_detail .wraper .container .contact .content .contact-item {
+              width: calc(100% - 30px);
+              float: left;
+              border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+              padding: 20px 0; }
+              .footer_news_detail .wraper .container .contact .content .contact-item div {
+                float: left;
+                margin: 0 5px; }
+            .footer_news_detail .wraper .container .contact .content .contact-item:last-child {
+              border-bottom: none; }
+        .footer_news_detail .wraper .container .form {
+          width: 50%;
+          float: right;
+          position: absolute;
+          top: 30px;
+          right: 30px; }
+          .footer_news_detail .wraper .container .form form {
+            background: #fff;
+            padding: 40px 40px 0 40px; }
+            .footer_news_detail .wraper .container .form form textarea {
+              border: none;
+              border-bottom: 1px solid #E7E7E7;
+              display: block;
+              margin: 10px 0;
+              padding: 20px 0;
+              width: 100%; }
+            .footer_news_detail .wraper .container .form form input {
+              background: none;
+              border: none;
+              border-bottom: 1px solid #E7E7E7;
+              margin: 10px 0;
+              padding: 20px 0;
+              width: 100%; }
+            .footer_news_detail .wraper .container .form form button {
+              width: 100%; }
+            .footer_news_detail .wraper .container .form form input[type='textarea'] {
+              height: 100px; }
+          .footer_news_detail .wraper .container .form .form-shadow {
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-box-shadow: 0 0 50px 0 #D7E2E5;
+            box-shadow: 0 0 50px 0 #D7E2E5;
+            mix-blend-mode: multiply; }
+    .footer_news_detail .news {
+      float: left;
+      margin: 30px 0; }
+      .footer_news_detail .news a,
+      .footer_news_detail .news a:link,
+      .footer_news_detail .news a:visited,
+      .footer_news_detail .news a:hover {
+        color: #15A5DF;
+        text-decoration: underline; }
+      .footer_news_detail .news p:first-child {
+        color: #161A23; }
+      .footer_news_detail .news .news-item {
+        width: calc(50% - 100px);
+        float: left;
+        margin: 30px;
+        color: #808D99; }
+        .footer_news_detail .news .news-item .left {
+          float: left;
+          width: 20%;
+          height: 100px;
+          overflow: hidden;
+          border-radius: 100px;
+          margin-right: 20px; }
+        .footer_news_detail .news .news-item .right p {
+          margin-top: 15px;
+          font-size: 20px; }
+          .footer_news_detail .news .news-item .right p span {
+            margin-left: 10px; }
+        .footer_news_detail .news .news-item .right p:nth-child(2) {
+          font-size: calc($website-p-size - 2px); }
+    .footer_news_detail .content {
+      width: 100%;
+      float: left;
+      display: block;
+      border-top: 1px solid rgba(57, 57, 57, 0.2);
+      padding: 50px 0; }
+      .footer_news_detail .content .logo {
+        float: left; }
+      .footer_news_detail .content .social {
+        float: right; }
+        .footer_news_detail .content .social .social-item {
+          float: right; }
+        .footer_news_detail .content .social ul {
+          list-style: none; }
+          .footer_news_detail .content .social ul li {
+            float: right;
+            margin: 0 5px; } }

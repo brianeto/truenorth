@@ -1,0 +1,41 @@
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+@media (min-width: 1200px) {
+  .news_list {
+    width: 100%;
+    float: left;
+    display: block;
+    margin: 100px 0;
+    margin-top: 0; }
+    .news_list small {
+      display: block;
+      text-align: center;
+      margin: 50px 0; }
+    .news_list .content .news-item {
+      padding: 60px 0;
+      float: left;
+      display: block;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+      .news_list .content .news-item small {
+        text-align: left;
+        margin: 5px 0; }
+      .news_list .content .news-item .picture {
+        width: 20%;
+        height: 240px;
+        float: left;
+        overflow: hidden; }
+      .news_list .content .news-item .text {
+        width: 70%;
+        margin: 0 5%;
+        float: right; }
+    .news_list .content .news-item:last-child {
+      border: none; } }

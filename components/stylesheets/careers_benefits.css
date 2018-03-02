@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+@media (min-width: 1200px) {
+  .careers_benefits {
+    width: 100%;
+    float: left;
+    display: block;
+    text-align: center;
+    margin: 40px 0; }
+    .careers_benefits #reverse {
+      float: right; }
+      .careers_benefits #reverse .right {
+        float: left; }
+      .careers_benefits #reverse .left {
+        float: right;
+        text-align: right; }
+    .careers_benefits .benefit-item {
+      float: left;
+      margin: 20px 0; }
+      .careers_benefits .benefit-item .right, .careers_benefits .benefit-item .left {
+        width: 40%;
+        float: left;
+        margin: 5%; }
+      .careers_benefits .benefit-item .right {
+        padding-top: 20px;
+        text-align: left; }
+        .careers_benefits .benefit-item .right h1 {
+          font-size: 22px;
+          margin-top: 5px; }
+        .careers_benefits .benefit-item .right small {
+          font-size: 18px;
+          margin: 0; }
+        .careers_benefits .benefit-item .right ul {
+          margin: 30px 0 0 0;
+          font-size: 18px; }
+          .careers_benefits .benefit-item .right ul li {
+            margin: 15px 0;
+            line-height: 1.4em; }
+          .careers_benefits .benefit-item .right ul li:before {
+            content: "•";
+            /* Insert content that looks like bullets */
+            padding-right: 5px; }
+      .careers_benefits .benefit-item .left {
+        overflow: hidden;
+        height: 320px; } }

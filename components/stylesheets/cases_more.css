@@ -1,0 +1,28 @@
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+@media (min-width: 1200px) {
+  .cases_more {
+    width: 100%;
+    float: left;
+    display: block; }
+    .cases_more small {
+      display: block;
+      text-align: center;
+      margin: 50px 0; }
+    .cases_more .projects ul li {
+      text-align: center;
+      width: 33.33%;
+      float: left; }
+      .cases_more .projects ul li img {
+        -webkit-transform: scale(0.7);
+                transform: scale(0.7);
+        opacity: 0.3; } }

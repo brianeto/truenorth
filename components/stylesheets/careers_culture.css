@@ -23,20 +23,45 @@ VARIABLES
       margin: 50px 0; }
       .culture .imagery .image-item {
         overflow: hidden; }
-    .culture .right, .culture .left {
-      width: 50%; }
-    .culture .left {
-      height: 432px;
-      float: left; }
-      .culture .left .image-item {
-        width: 96%;
-        height: 100%;
+      .culture .imagery .right, .culture .imagery .left {
+        width: 50%; }
+      .culture .imagery .left {
+        height: 432px;
+        float: left; }
+        .culture .imagery .left .image-item {
+          width: 96%;
+          height: 100%;
+          float: left;
+          margin: 2%; }
+      .culture .imagery .right {
+        float: right; }
+        .culture .imagery .right .image-item {
+          width: 46%;
+          height: 205px;
+          float: left;
+          margin: 2%; }
+    .culture .talent-ad {
+      width: 60%;
+      padding: 40px 5%;
+      margin: 0 15%;
+      float: left;
+      background: linear-gradient(-46deg, #FF8900 0%, #36D4AA 100%); }
+      .culture .talent-ad small, .culture .talent-ad h1 {
+        color: #FFFFFF; }
+      .culture .talent-ad h1 {
+        font-size: 25px; }
+      .culture .talent-ad small {
+        font-size: 18px; }
+      .culture .talent-ad .right {
+        float: right; }
+        .culture .talent-ad .right button {
+          margin: 0;
+          background: none;
+          border: 1px solid #FFFFFF;
+          color: #FFFFFF;
+          font-size: 18px; }
+      .culture .talent-ad .left {
         float: left;
-        margin: 2%; }
-    .culture .right {
-      float: right; }
-      .culture .right .image-item {
-        width: 46%;
-        height: 205px;
-        float: left;
-        margin: 2%; } }
+        text-align: left; }
+        .culture .talent-ad .left small, .culture .talent-ad .left h1 {
+          margin: 0; } }

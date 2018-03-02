@@ -1,0 +1,22 @@
+/*********************
+Header's CSS
+*********************/
+/*********************
+VARIABLES
+*********************/
+/* Website's font sizes */
+/* Website's Colors */
+/* Green Gradient */
+/* Blue Gradient */
+/* Style for large devices */
+@media (min-width: 1200px) {
+  .cases_solution {
+    text-align: center;
+    width: 100%;
+    float: left;
+    display: block; }
+    .cases_solution .container {
+      width: 80%;
+      margin: 0 auto; }
+      .cases_solution .container h1 {
+        line-height: 1.4em; } }

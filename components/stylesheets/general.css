@@ -15,6 +15,12 @@ body, html {
 a {
   color: #15A5DF; }
 
+a:link,
+a:visited,
+a:hover {
+  color: #FFFFFF;
+  text-decoration: none; }
+
 p {
   line-height: 1.5em; }
 

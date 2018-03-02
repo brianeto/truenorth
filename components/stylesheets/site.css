@@ -12,5 +12,17 @@
 @import url(featuredon.css);
 @import url(footer.css);
 /* Careers */
-@import url(header_inner.css);
+@import url(header_careers.css);
 @import url(careers_culture.css);
+@import url(careers_values.css);
+@import url(careers_list.css);
+@import url(careers_benefits.css);
+/* Case Studies */
+@import url(header_case_study.css);
+@import url(cases_solution.css);
+@import url(cases_testimonial.css);
+@import url(cases_more.css);
+/* News */
+@import url(header_news.css);
+@import url(news_list.css);
+@import url(footer_news_detail.css);
